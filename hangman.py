@@ -47,7 +47,7 @@ def find_letter_in_the_word(word, shot, agreed_letter):
 
 
 def game_flow(hang, hit, word_secret, errors, agreed_letter):
-    attempts = 5 - errors
+    attempts = 5
     while not hang and not hit:
         shot = input("What's the letter??")
         shot = shot.strip().upper()
